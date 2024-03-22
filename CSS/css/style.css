@@ -1,36 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-}
-
-header {
-    background-color: #ffffff;
-}
-
-nav {
-    background-color: #ffffff;
-}
-
 main {
-    background-color: #896060;
-    font-size: 18px;
+    main: height 100px;
 }
-
-footer {
-    background-color: #dddddd;
+nav a {
+    text-decoration: none;
 }
-
 li {
-    display: inline-block; /* or inline, inline-block, etc., depending on your layout */
-    width: 200px; /* Adjust as needed */
+    background-color: yellow;
 }
 
-h1 {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: #000000;
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
-
-p {
-    line-height: 2;
+.current{
+    text-transform: uppercase;
+    background-color: lightgrey;
 }
